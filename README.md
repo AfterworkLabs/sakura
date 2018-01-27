@@ -1,7 +1,5 @@
 # Sakura - Randomizer Web Client
 
-# SetUp
-
 ## Installing Prerequistites
 1. Node
   * Install from [nodejs.org](https://nodejs.org)
