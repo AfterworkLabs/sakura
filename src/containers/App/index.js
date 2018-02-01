@@ -4,6 +4,7 @@ import Home from '../../components/Home';
 import Haha from '../../components/Haha';
 import Hehe from '../../components/Hehe';
 import Randomizer from "../../components/Randomizer";
+import Hoho from "../../components/Hoho";
 
 class App extends PureComponent {
 
@@ -15,6 +16,7 @@ class App extends PureComponent {
             <Route path="/haha" component={Haha} />
             <Route path="/hehe" component={Hehe} />
             <Route path="/randomizer" component={Randomizer} />
+            <Route path="/hoho" component={Hoho} />
             <Route component={() => <Redirect to="/" />} />
             </Switch>
         </BrowserRouter>
